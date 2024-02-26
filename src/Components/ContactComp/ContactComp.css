@@ -1,0 +1,80 @@
+/* ContactComp.css */
+.contact-container {
+  display: flex;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  background-color:transparent;
+  border-radius: 8px;
+  width: 90%;
+  color: azure;
+  height: 500px;
+
+  }
+  
+  .description-container{
+    width: 40%;
+    
+  }
+ 
+  .form-container {
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 27px;
+  }
+  .social-links a:hover {
+    text-decoration:double;
+    color: #6248f5;
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  form label {
+    margin-bottom: 5px;
+    font-size: 19px;
+    color: gold;
+    
+
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #3498db; /* You can choose your own color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,54 @@
+
+.blog-container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 90%;
+ 
+ 
+  }
+  
+  .blog-list {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+ 
+ 
+
+.blog-post {
+  border: 1px dashed #424141;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+.blog-post img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: cornsilk;
+}
+
+.blog-post p {
+  line-height: 1.5;
+  color: cornsilk;
+}
+
+ 
+  @media (max-width: 768px) {
+    .blog-list {
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+    }
+  }

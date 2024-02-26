@@ -1,0 +1,46 @@
+/* RecipeComp.css */
+.recipe-container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  align-self: center;
+  background-color:transparent;
+  border-radius: 8px;
+  width: 90%;
+  color: cornsilk;
+}
+
+.recipe-list {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.recipe-item {
+  flex: 0 0 auto;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.recipe-item img {
+  width: 200px;
+  height: 200px; 
+  border-radius: 18px;
+}
+
+.recipe-details {
+  text-align: center;
+}
+
+.recipe-details img {
+  width: 100%;
+  max-height: 300px; /* Adjust as needed */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .recipe-list {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}
